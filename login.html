@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="login-body">
+
+  <div class="container">
+    <h1>LOG IN</h1>
+
+    <form id="loginForm">
+      <div class="tbox">
+        <input type="text" id="username" class="input" placeholder="Username">
+      </div>
+      
+      <div class="tbox">
+        <input type="password" id="password" class="input" placeholder="Password">
+      </div>
+
+      <button type="submit" class="btn">LOG IN</button>
+    </form>
+
+    <a href="#" class="b2">FORGOT PASSWORD?</a>
+    <a href="#" class="b1">CREATE AN ACCOUNT</a>
+
+    <div class="modal" style="display:none;">
+      <img src="img/alert_icon.png" alt="alert" style="width:40px; margin-bottom:10px;">
+      <p>Incorrect username or password</p>
+      <button type="button" id="tryAgainBtn" class="btn">TRY AGAIN</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
