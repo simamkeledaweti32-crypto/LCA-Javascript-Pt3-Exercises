@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Registration Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 500px; margin: 40px auto; padding: 20px; }
+    .error { color: red; font-size: 0.9em; }
+    input.invalid { border: 2px solid red; }
+    #formMessage { color: green; font-weight: bold; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Register Your Account</h1>
+  
+  <form id="registrationForm">
+    <div id="formMessage"></div>
+
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username"><br>
+    <div id="usernameError" class="error"></div><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br>
+    <div id="emailError" class="error"></div><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br>
+    <div id="passwordError" class="error"></div><br>
+
+    <label for="confirmPassword">Confirm Password:</label><br>
+    <input type="password" id="confirmPassword" name="confirmPassword"><br>
+    <div id="confirmPasswordError" class="error"></div><br>
+
+    <button type="submit" id="submitBtn">Register</button>
+  </form>
+
+  <script src="week8_ex04_dom_registration_form.js"></script>
+</body>
+</html>
