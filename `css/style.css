@@ -1,0 +1,18 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f8f9fa;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+h1 {
+  font-weight: 700;
+}
