@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Toggle button -->
+  <div class="btn-toggle-nav"></div>
+
+  <!-- Sidebar -->
+  <nav class="nav-sidebar">
+    <ul>
+      <li><span>Menu</span></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="login.html">Logout</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content -->
+  <div class="wrapper-main">
+    <section class="section-default">
+      <h1>Welcome to the Home Page</h1>
+      <p>You have successfully logged in!</p>
+      <p>Tap the menu button on the top left to open and close the sidebar.</p>
+    </section>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
